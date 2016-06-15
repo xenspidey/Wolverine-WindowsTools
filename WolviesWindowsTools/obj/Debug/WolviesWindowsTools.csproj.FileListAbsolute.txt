@@ -1,0 +1,15 @@
+C:\Users\bcalendine\Documents\Wolverine\Projects\WolviesWindowsTools\WolviesWindowsTools\bin\Debug\WolviesWindowsTools.exe.config
+C:\Users\bcalendine\Documents\Wolverine\Projects\WolviesWindowsTools\WolviesWindowsTools\bin\Debug\WolviesWindowsTools.exe
+C:\Users\bcalendine\Documents\Wolverine\Projects\WolviesWindowsTools\WolviesWindowsTools\bin\Debug\WolviesWindowsTools.pdb
+C:\Users\bcalendine\Documents\Wolverine\Projects\WolviesWindowsTools\WolviesWindowsTools\bin\Debug\itextsharp.dll
+C:\Users\bcalendine\Documents\Wolverine\Projects\WolviesWindowsTools\WolviesWindowsTools\bin\Debug\PdfSharp.dll
+C:\Users\bcalendine\Documents\Wolverine\Projects\WolviesWindowsTools\WolviesWindowsTools\obj\Debug\WolviesWindowsTools.frmMain.resources
+C:\Users\bcalendine\Documents\Wolverine\Projects\WolviesWindowsTools\WolviesWindowsTools\obj\Debug\WolviesWindowsTools.Properties.Resources.resources
+C:\Users\bcalendine\Documents\Wolverine\Projects\WolviesWindowsTools\WolviesWindowsTools\obj\Debug\WolviesWindowsTools.csproj.GenerateResource.Cache
+C:\Users\bcalendine\Documents\Wolverine\Projects\WolviesWindowsTools\WolviesWindowsTools\obj\Debug\WolviesWindowsTools.exe
+C:\Users\bcalendine\Documents\Wolverine\Projects\WolviesWindowsTools\WolviesWindowsTools\obj\Debug\WolviesWindowsTools.pdb
+C:\Users\bcalendine\Documents\Wolverine\Projects\WolviesWindowsTools\WolviesWindowsTools\obj\Debug\WolviesWindowsTools.csprojResolveAssemblyReference.cache
+C:\Users\bcalendine\Documents\Wolverine\Projects\WolviesWindowsTools\WolviesWindowsTools\bin\Debug\PDFClown.dll
+D:\sync\WolviesWindowsTools\WolviesWindowsTools\bin\Debug\WolviesWindowsTools.exe.config
+D:\sync\WolviesWindowsTools\WolviesWindowsTools\obj\Debug\WolviesWindowsTools.exe
+D:\sync\WolviesWindowsTools\WolviesWindowsTools\obj\Debug\WolviesWindowsTools.pdb

@@ -1,0 +1,25 @@
+
+
+* TODO General [0/1]
+- [ ] add methods in form1.cs to access form elements from other classes (proper encapsulation)
+  - [ ] 
+
+* TODO UI
+- Change main form to be only a "canvas" in which to drag items
+  - [ ] create seperate forms for each applicable file type
+  - [ ] make the "start" page user friendly and intuitive.
+  - x[ ] start page should always be on top until files have been dropped and processing has begun
+    
+* TODO PDF
+- [ ] recode using PDFclown
+  - [ ] 
+
+- [ ] Add ability to convert images to PDF's
+
+* TODO Image
+- [ ] Create image processing functionality [0/1]
+  - [ ] Reduce quality for sizing
+    - [ ] Reduce multiple files to a total target size
+    - [ ] Reduce by percentage
+
+
