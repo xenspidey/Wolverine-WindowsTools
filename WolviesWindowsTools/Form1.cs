@@ -14,6 +14,7 @@ namespace WolviesWindowsTools
     public partial class frmMain : Form
     {
         public string combineName = "";
+        public string fileDirectory = "";
         public List<string> fileList = new List<string>();
         public frmMain()
         {
@@ -56,6 +57,7 @@ namespace WolviesWindowsTools
                         lv.Items.Add(Path.GetFileName(file));
                         fileList.Add(file);
                         lv.Items[0].Selected = true;
+                        fileDirectory = Path.GetDirectoryName(file).ToString();
                     }
                     else
                     {
@@ -140,6 +142,7 @@ namespace WolviesWindowsTools
         {
             SaveFileDialog sfile = new SaveFileDialog();
             sfile.Filter = "PDF (*.pdf)|*.pdf";
+            sfile.InitialDirectory = fileDirectory;
             if (sfile.ShowDialog(this) == DialogResult.OK)
             {
                 if (sfile.FileName != null)
