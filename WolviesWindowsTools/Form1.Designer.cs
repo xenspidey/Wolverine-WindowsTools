@@ -58,10 +58,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tabTools.Controls.Add(this.tabPDF_Combine);
             this.tabTools.Controls.Add(this.tabPDF_Edit);
-            this.tabTools.Location = new System.Drawing.Point(12, 12);
+            this.tabTools.Location = new System.Drawing.Point(24, 16);
+            this.tabTools.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tabTools.Name = "tabTools";
             this.tabTools.SelectedIndex = 0;
-            this.tabTools.Size = new System.Drawing.Size(456, 266);
+            this.tabTools.Size = new System.Drawing.Size(912, 512);
             this.tabTools.TabIndex = 0;
             // 
             // tabPDF_Combine
@@ -73,10 +74,11 @@
             this.tabPDF_Combine.Controls.Add(this.btnMoveDn);
             this.tabPDF_Combine.Controls.Add(this.btnMoveUp);
             this.tabPDF_Combine.Controls.Add(this.lv_files_cmb);
-            this.tabPDF_Combine.Location = new System.Drawing.Point(4, 22);
+            this.tabPDF_Combine.Location = new System.Drawing.Point(8, 39);
+            this.tabPDF_Combine.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tabPDF_Combine.Name = "tabPDF_Combine";
-            this.tabPDF_Combine.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPDF_Combine.Size = new System.Drawing.Size(448, 240);
+            this.tabPDF_Combine.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.tabPDF_Combine.Size = new System.Drawing.Size(896, 465);
             this.tabPDF_Combine.TabIndex = 0;
             this.tabPDF_Combine.Text = "Combine PDF\'s";
             this.tabPDF_Combine.UseVisualStyleBackColor = true;
@@ -85,18 +87,20 @@
             // 
             this.lblDrag_pdf.AutoSize = true;
             this.lblDrag_pdf.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDrag_pdf.Location = new System.Drawing.Point(95, 90);
+            this.lblDrag_pdf.Location = new System.Drawing.Point(190, 173);
+            this.lblDrag_pdf.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblDrag_pdf.Name = "lblDrag_pdf";
-            this.lblDrag_pdf.Size = new System.Drawing.Size(167, 24);
+            this.lblDrag_pdf.Size = new System.Drawing.Size(320, 44);
             this.lblDrag_pdf.TabIndex = 6;
             this.lblDrag_pdf.Text = "Drag PDF\'s Here";
             // 
             // btnCombine
             // 
             this.btnCombine.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnCombine.Location = new System.Drawing.Point(367, 211);
+            this.btnCombine.Location = new System.Drawing.Point(734, 406);
+            this.btnCombine.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnCombine.Name = "btnCombine";
-            this.btnCombine.Size = new System.Drawing.Size(75, 23);
+            this.btnCombine.Size = new System.Drawing.Size(150, 44);
             this.btnCombine.TabIndex = 5;
             this.btnCombine.Text = "Combine";
             this.btnCombine.UseVisualStyleBackColor = true;
@@ -105,9 +109,10 @@
             // btnClear
             // 
             this.btnClear.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnClear.Location = new System.Drawing.Point(367, 93);
+            this.btnClear.Location = new System.Drawing.Point(734, 179);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(75, 23);
+            this.btnClear.Size = new System.Drawing.Size(150, 44);
             this.btnClear.TabIndex = 4;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
@@ -116,9 +121,10 @@
             // btnRemove
             // 
             this.btnRemove.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnRemove.Location = new System.Drawing.Point(367, 64);
+            this.btnRemove.Location = new System.Drawing.Point(734, 123);
+            this.btnRemove.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnRemove.Name = "btnRemove";
-            this.btnRemove.Size = new System.Drawing.Size(75, 23);
+            this.btnRemove.Size = new System.Drawing.Size(150, 44);
             this.btnRemove.TabIndex = 3;
             this.btnRemove.Text = "Remove";
             this.btnRemove.UseVisualStyleBackColor = true;
@@ -127,9 +133,10 @@
             // btnMoveDn
             // 
             this.btnMoveDn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnMoveDn.Location = new System.Drawing.Point(367, 35);
+            this.btnMoveDn.Location = new System.Drawing.Point(734, 67);
+            this.btnMoveDn.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnMoveDn.Name = "btnMoveDn";
-            this.btnMoveDn.Size = new System.Drawing.Size(75, 23);
+            this.btnMoveDn.Size = new System.Drawing.Size(150, 44);
             this.btnMoveDn.TabIndex = 2;
             this.btnMoveDn.Text = "Move Down";
             this.btnMoveDn.UseVisualStyleBackColor = true;
@@ -138,9 +145,10 @@
             // btnMoveUp
             // 
             this.btnMoveUp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnMoveUp.Location = new System.Drawing.Point(367, 6);
+            this.btnMoveUp.Location = new System.Drawing.Point(734, 12);
+            this.btnMoveUp.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnMoveUp.Name = "btnMoveUp";
-            this.btnMoveUp.Size = new System.Drawing.Size(75, 23);
+            this.btnMoveUp.Size = new System.Drawing.Size(150, 44);
             this.btnMoveUp.TabIndex = 1;
             this.btnMoveUp.Text = "Move Up";
             this.btnMoveUp.UseVisualStyleBackColor = true;
@@ -152,9 +160,10 @@
             this.lv_files_cmb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.lv_files_cmb.Location = new System.Drawing.Point(6, 6);
+            this.lv_files_cmb.Location = new System.Drawing.Point(12, 12);
+            this.lv_files_cmb.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.lv_files_cmb.Name = "lv_files_cmb";
-            this.lv_files_cmb.Size = new System.Drawing.Size(355, 228);
+            this.lv_files_cmb.Size = new System.Drawing.Size(706, 435);
             this.lv_files_cmb.TabIndex = 0;
             this.lv_files_cmb.UseCompatibleStateImageBehavior = false;
             this.lv_files_cmb.View = System.Windows.Forms.View.List;
@@ -167,10 +176,11 @@
             this.tabPDF_Edit.Controls.Add(this.lblDrag_doc);
             this.tabPDF_Edit.Controls.Add(this.btnConvert);
             this.tabPDF_Edit.Controls.Add(this.lv_files_doc);
-            this.tabPDF_Edit.Location = new System.Drawing.Point(4, 22);
+            this.tabPDF_Edit.Location = new System.Drawing.Point(8, 39);
+            this.tabPDF_Edit.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tabPDF_Edit.Name = "tabPDF_Edit";
-            this.tabPDF_Edit.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPDF_Edit.Size = new System.Drawing.Size(448, 240);
+            this.tabPDF_Edit.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.tabPDF_Edit.Size = new System.Drawing.Size(896, 465);
             this.tabPDF_Edit.TabIndex = 1;
             this.tabPDF_Edit.Text = "PDF Edit";
             this.tabPDF_Edit.UseVisualStyleBackColor = true;
@@ -179,18 +189,20 @@
             // 
             this.lblDrag_doc.AutoSize = true;
             this.lblDrag_doc.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDrag_doc.Location = new System.Drawing.Point(99, 100);
+            this.lblDrag_doc.Location = new System.Drawing.Point(198, 192);
+            this.lblDrag_doc.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblDrag_doc.Name = "lblDrag_doc";
-            this.lblDrag_doc.Size = new System.Drawing.Size(152, 24);
+            this.lblDrag_doc.Size = new System.Drawing.Size(292, 44);
             this.lblDrag_doc.TabIndex = 7;
             this.lblDrag_doc.Text = "Drag PDF Here";
             // 
             // btnConvert
             // 
             this.btnConvert.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnConvert.Location = new System.Drawing.Point(367, 211);
+            this.btnConvert.Location = new System.Drawing.Point(734, 406);
+            this.btnConvert.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnConvert.Name = "btnConvert";
-            this.btnConvert.Size = new System.Drawing.Size(75, 23);
+            this.btnConvert.Size = new System.Drawing.Size(150, 44);
             this.btnConvert.TabIndex = 1;
             this.btnConvert.Text = "Convert";
             this.btnConvert.UseVisualStyleBackColor = true;
@@ -204,10 +216,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lv_files_doc.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1});
-            this.lv_files_doc.Location = new System.Drawing.Point(6, 6);
+            this.lv_files_doc.Location = new System.Drawing.Point(12, 12);
+            this.lv_files_doc.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.lv_files_doc.MultiSelect = false;
             this.lv_files_doc.Name = "lv_files_doc";
-            this.lv_files_doc.Size = new System.Drawing.Size(355, 228);
+            this.lv_files_doc.Size = new System.Drawing.Size(706, 435);
             this.lv_files_doc.TabIndex = 0;
             this.lv_files_doc.UseCompatibleStateImageBehavior = false;
             this.lv_files_doc.DragDrop += new System.Windows.Forms.DragEventHandler(this.onDrop_doc);
@@ -224,9 +237,10 @@
             // 
             this.progressBar1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.progressBar1.Location = new System.Drawing.Point(12, 281);
+            this.progressBar1.Location = new System.Drawing.Point(24, 540);
+            this.progressBar1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(456, 23);
+            this.progressBar1.Size = new System.Drawing.Size(912, 44);
             this.progressBar1.TabIndex = 1;
             // 
             // imageList1
@@ -237,12 +251,13 @@
             // 
             // frmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(480, 309);
+            this.ClientSize = new System.Drawing.Size(960, 594);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.tabTools);
-            this.MinimumSize = new System.Drawing.Size(496, 312);
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.MinimumSize = new System.Drawing.Size(966, 534);
             this.Name = "frmMain";
             this.Text = "Wolvies Windows Tools";
             this.tabTools.ResumeLayout(false);

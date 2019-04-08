@@ -13,3 +13,16 @@ C:\Users\bcalendine\Documents\Wolverine\Projects\WolviesWindowsTools\WolviesWind
 D:\sync\WolviesWindowsTools\WolviesWindowsTools\bin\Debug\WolviesWindowsTools.exe.config
 D:\sync\WolviesWindowsTools\WolviesWindowsTools\obj\Debug\WolviesWindowsTools.exe
 D:\sync\WolviesWindowsTools\WolviesWindowsTools\obj\Debug\WolviesWindowsTools.pdb
+C:\Users\bcale\Source\Repos\Wolverine-WindowsTools\WolviesWindowsTools\bin\Debug\WolviesWindowsTools.exe.config
+C:\Users\bcale\Source\Repos\Wolverine-WindowsTools\WolviesWindowsTools\bin\Debug\WolviesWindowsTools.exe
+C:\Users\bcale\Source\Repos\Wolverine-WindowsTools\WolviesWindowsTools\bin\Debug\WolviesWindowsTools.pdb
+C:\Users\bcale\Source\Repos\Wolverine-WindowsTools\WolviesWindowsTools\bin\Debug\itextsharp.dll
+C:\Users\bcale\Source\Repos\Wolverine-WindowsTools\WolviesWindowsTools\bin\Debug\PDFClown.dll
+C:\Users\bcale\Source\Repos\Wolverine-WindowsTools\WolviesWindowsTools\obj\Debug\WolviesWindowsTools.csprojAssemblyReference.cache
+C:\Users\bcale\Source\Repos\Wolverine-WindowsTools\WolviesWindowsTools\obj\Debug\WolviesWindowsTools.frmMain.resources
+C:\Users\bcale\Source\Repos\Wolverine-WindowsTools\WolviesWindowsTools\obj\Debug\WolviesWindowsTools.Properties.Resources.resources
+C:\Users\bcale\Source\Repos\Wolverine-WindowsTools\WolviesWindowsTools\obj\Debug\WolviesWindowsTools.csproj.GenerateResource.cache
+C:\Users\bcale\Source\Repos\Wolverine-WindowsTools\WolviesWindowsTools\obj\Debug\WolviesWindowsTools.csproj.CoreCompileInputs.cache
+C:\Users\bcale\Source\Repos\Wolverine-WindowsTools\WolviesWindowsTools\obj\Debug\WolviesWindowsTools.csproj.CopyComplete
+C:\Users\bcale\Source\Repos\Wolverine-WindowsTools\WolviesWindowsTools\obj\Debug\WolviesWindowsTools.exe
+C:\Users\bcale\Source\Repos\Wolverine-WindowsTools\WolviesWindowsTools\obj\Debug\WolviesWindowsTools.pdb
