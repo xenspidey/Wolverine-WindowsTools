@@ -51,7 +51,7 @@ namespace WolviesWindowsTools
                 string[] files = (string[])e.Data.GetData(DataFormats.FileDrop);
                 foreach (string file in files)
                 {
-                    if (Path.GetExtension(file).Contains(".pdf"))
+                    if (Path.GetExtension(file).ToLower().Contains(".pdf"))
                     {
                         lv.Items.Add(Path.GetFileName(file));
                         fileList.Add(file);
