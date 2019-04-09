@@ -137,7 +137,7 @@ namespace WolviesWindowsTools
             fileList.Clear();
             lblDrag_pdf.Visible = true;
         }
-
+        
         private void Combine(object sender, EventArgs e)
         {
             SaveFileDialog sfile = new SaveFileDialog();
@@ -149,10 +149,9 @@ namespace WolviesWindowsTools
                 {
                     combineName = sfile.FileName.ToString();
                 }
-            }
-            backgroundWorker.WorkerReportsProgress = true;
-            backgroundWorker.RunWorkerAsync(fileList);
-
+                backgroundWorker.WorkerReportsProgress = true;
+                backgroundWorker.RunWorkerAsync(fileList);
+            }        
         }
        
         private void backgroundWorker_DoWork(object sender, DoWorkEventArgs e)
