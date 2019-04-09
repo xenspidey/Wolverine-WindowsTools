@@ -171,8 +171,10 @@ namespace WolviesWindowsTools
                         for (int i = 0; i < inputDocument.PageCount; i++)
                         {
                             PdfPage page = inputDocument.PageCount > i ?
-                                inputDocument.Pages[i] : new PdfPage();
+                                inputDocument.Pages[i] : new PdfPage();  
+                            
                             outputDocument.AddPage(page);
+                            
                         }
                         backgroundWorker.ReportProgress(
                             Convert.ToInt32((decimal)n++ / lv_files_cmb.Items.Count * 100));
@@ -186,6 +188,11 @@ namespace WolviesWindowsTools
                 }
                 try
                 {
+                    //for (int i = 0; i < flist.Count; i++)
+                    //{
+                    //    string f = Path.GetFileNameWithoutExtension(flist[i]);
+                    //    outputDocument.Outlines.Add(f, )
+                    //}                    
                     outputDocument.Save(combineName);
                 }
                 catch (Exception exc)
@@ -237,7 +244,7 @@ namespace WolviesWindowsTools
 
                 if (files.Length == 1)
                 {
-                    if (Path.GetExtension(files[0]).Contains(".pdf") || Path.GetExtension(files[0]).Contains(".PDF"))
+                    if (Path.GetExtension(files[0]).ToLower().Contains(".pdf"))
                     {
                         //This only seems to work with
                         using (org.pdfclown.files.File Cfile = new org.pdfclown.files.File(files[0]))
@@ -254,12 +261,13 @@ namespace WolviesWindowsTools
                                 imageList1.Images.Add(Cimage);
                             }
                         }
-
                     }
+
                     else
                     {
                         MessageBox.Show("Pleas only drop PDF's here.");
                     }
+
                     lv_files_doc.View = View.LargeIcon;
                     lv_files_doc.Columns.Add("File");
                     lv_files_doc.Columns[0].Width = lv_files_doc.Width - 4;
@@ -275,6 +283,7 @@ namespace WolviesWindowsTools
                         item.ImageIndex = j;
                         lv.Items.Add(item);
                     }
+
                     lv.Items[0].Selected = true;
                 }
                 //process single file
